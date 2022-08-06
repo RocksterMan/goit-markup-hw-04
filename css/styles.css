@@ -320,10 +320,10 @@ address {
     width: 270px;
 }
 .privileges-icon-fon {
-    width: 270px;
-    display: block;
+    display: flex;
+    height: 120px;
+    justify-content: center;
     align-items: center;
-    padding: 25px 100px;
     background-color: var(--bgc-team);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -491,12 +491,14 @@ address {
 }
 
 .clients-link {
+    display: flex;
+    height: 92px;
     width: 170px;
-    display: block;
+    align-items: center;
+    justify-content: center;
     border: 1px solid var(--social-icon-color);
     background-color: var(--bgc-header);
     border-radius: 4px;
-    padding: 16px 32px;
     color: var(--social-icon-color);
 }
 .clients-link:hover,
